@@ -11,7 +11,10 @@ const choices = {
 };
 
 // set message variable
-let finalMessage = [];
+let funnyishPassage = [];
+
+// Create the message by adding details to the funnyishPassage array
+
 
 console.log(randomChoice(['running', 'walking', 'cycling']));
 console.log(['running', 'walking', 'cycling'].length);
