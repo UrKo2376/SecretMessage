@@ -12,9 +12,14 @@ const choices = {
 
 // set message variable
 let funnyishPassage = [];
+let outPut = '';
 
 // Create the message by adding details to the funnyishPassage array
+for(item in choices){
+    let idx = randomChoice(choices[item]);
+    funnyishPassage.push(choices[item][idx]);    
+}
 
+outPut = `One day ${funnyishPassage[0]} decided to go out ${funnyishPassage[1]}.  ${funnyishPassage[0]} was stopped by an old woman in a black cloak who offered ${funnyishPassage[0]} something to eat.  On first bite the old lady vanished and ${funnyishPassage[0]} began ${funnyishPassage[2]}`;
 
-console.log(randomChoice(['running', 'walking', 'cycling']));
-console.log(['running', 'walking', 'cycling'].length);
+console.log(outPut);
