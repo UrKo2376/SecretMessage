@@ -20,6 +20,6 @@ for(item in choices){
     funnyishPassage.push(choices[item][idx]);    
 }
 
-outPut = `One day ${funnyishPassage[0]} decided to go ${funnyishPassage[1]}.  ${funnyishPassage[0]} was stopped by an old woman in dressed in black who offered ${funnyishPassage[0]} something to eat.  On first bite the old lady vanished and ${funnyishPassage[0]} began ${funnyishPassage[2]}`;
+outPut = `One day ${funnyishPassage[0]} decided to go ${funnyishPassage[1]}.  ${funnyishPassage[0]} was stopped by an old woman dressed in black who offered ${funnyishPassage[0]} something to eat.  On first bite the old lady vanished and ${funnyishPassage[0]} began ${funnyishPassage[2]}`;
 
 console.log(outPut);
